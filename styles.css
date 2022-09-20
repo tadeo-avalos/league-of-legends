@@ -6,11 +6,7 @@ font-family: 'Aboreto', cursive;
 }
 
 body{   
-
--webkit-text-stroke: 1px white
- rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
-
+background-color: black;
 }
 .nav-main {
     display: flex;
@@ -32,6 +28,10 @@ img{
     width: 100%;
 }
  .ul {
+    
+-webkit-text-stroke: 1px white
+rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
     background-color: black;
     border: solid white;
     display: flex;
@@ -53,7 +53,7 @@ img{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    color: violet;
+    color:red;
     margin: 20px;
  }
 .img2 {
@@ -68,11 +68,11 @@ img{
 }
 
  .sport p {
-    color: violet;
+    color: red;
     font-size: 50px;
  }
  h2 {
-    color: violet;
+    color: red;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ img{
     gap: 20px;
 }
 h3 {
-    color: violet;
+    color: red;
     text-align: center;
 }
 
@@ -93,14 +93,52 @@ h3 {
   
 footer {
     align-self: flex-end;
-    background-color:  black;
+    background-color: gray;
     line-height: 3;
     text-align: center;
     width: 100%; 
-    margin: 20px;
+    margin:auto;
     color: blueviolet;
+}
+
+.uno{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+   padding:30px 0px;
+}
+
+.titulo{
+    text-align: center;
+    color: aqua;
+   
+    margin-bottom: 60px;
+    
+}
+
+.sub-titulo{
+    color: blue;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 60px;
+    }
+
+
+
+
+.div-a{
+    background-color: #b8b8b8;
 }
 
 
 
-   
+.div-a img{
+width: 300px;
+float: left;
+margin: right 40px;
+}
+.div-a p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;   
+}
